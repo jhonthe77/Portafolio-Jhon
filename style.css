@@ -532,6 +532,13 @@ html {
   text-align: center;
   padding: 20px 0;
 }
+.portafolio a {
+  color: #ffffff;
+  font-family: "Righteous";
+  text-align: center;
+  padding: 20px 0;
+
+}
 .portafolio .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -564,7 +571,6 @@ html {
   letter-spacing: 3px;
   opacity: 0;
   text-align: center;
-
 }
 .portafolio .galeria .proyecto .overlay h3 {
   margin-bottom: 20px;
@@ -620,7 +626,6 @@ html {
   width: 90%;
   border: #131517;
 }
-
 
 .contacto .contenido-seccion .fila {
   display: flex;
