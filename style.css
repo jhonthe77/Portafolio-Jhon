@@ -8,6 +8,7 @@
 html {
   /* me permite deslizar cundo hago cli en los links del menu */
   scroll-behavior: smooth;
+ 
 }
 
 /* menu */
@@ -646,8 +647,9 @@ html {
 
 @media screen and (max-width :1100px){
 
-html{
+body{
   overflow-x:hidden ;
+  min-width: 720px;
 }
   nav.nav{
     display: none;
