@@ -646,12 +646,11 @@ html {
 
 @media screen and (max-width :1000px){
 
-
+body{
+  overflow-x:hidden ;
+}
   nav.nav{
     display: none;
-  }
-  .inicio{
-    width: 100%;
   }
   .sobremi{
     display: flex;
