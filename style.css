@@ -643,3 +643,21 @@ html {
   padding: 20px 0;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width :900px){
+
+
+  nav.nav{
+    display: none;
+  }
+  .inicio{
+    width: 100%;
+  }
+  .sobremi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+}
