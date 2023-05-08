@@ -649,7 +649,7 @@ html {
 
 body{
   overflow-x:hidden ;
-  min-width: 720px;
+  min-width: 420px;
 }
   nav.nav{
     display: none;
