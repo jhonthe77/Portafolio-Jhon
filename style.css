@@ -655,7 +655,7 @@ html {
   .sobremi{
     overflow-x: hidden;
     
-    height: 135vh;
+    height: 95vh;
   }
   .sobremi .fila{
     width: auto;
@@ -686,7 +686,8 @@ html {
     }
     
     .skills{
-      height: 190vh;
+      height: 165vh;
+      padding:0 20px;
     }
     .skills .fila{
         display: block;
@@ -713,7 +714,7 @@ html {
     }
      
     .portafolio{
-      height: 342vh;
+      height: 165vh;
       clear: both;
     
     }
