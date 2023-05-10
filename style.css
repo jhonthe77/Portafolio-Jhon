@@ -643,18 +643,23 @@ html {
   margin-bottom: 20px;
 }
 
-@media screen  and  (max-width:700px){
+@media screen  and  (max-width:600px){
  
+  body section {
+    overflow-x: hidden;
+  }
   .nav{
     display: none;
-    overflow-x: hidden;
     
   }
   .sobremi{
     overflow-x: hidden;
+    
     height: 135vh;
   }
-    .sobremi .fila{
+  .sobremi .fila{
+      overflow-x: hidden;
+      overflow-y: hidden;
         display: block;
     }
     .sobremi .fila .col{
@@ -688,7 +693,9 @@ html {
     }
      
     .portafolio{
-      height: 480vh;
+      height: 402vh;
+      clear: both;
+    
     }
     .portafolio .galeria{
         display: block;
@@ -699,6 +706,9 @@ html {
     }
     .portafolio .galeria .proyecto img{
         width: 100%;
+    }
+    .contacto{
+      clear: both;
     }
     .contacto .fila{
         display: block;
