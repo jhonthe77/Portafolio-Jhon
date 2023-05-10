@@ -70,7 +70,7 @@ html {
     ),
     url(image/fondo.jpg);
   background-size: cover;
-  height: 120vh;
+  height: 130vh;
   color: #fff;
   display: flex;
   align-items: center;
