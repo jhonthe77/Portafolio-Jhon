@@ -686,6 +686,8 @@ html {
     }
     
     .skills{
+    overflow-y: hidden;
+
       height: 95vh;
       padding:0 20px;
     }
@@ -714,6 +716,8 @@ html {
     }
      
     .portafolio{
+    overflow-y: hidden;
+
       height: 165vh;
       clear: both;
     
@@ -729,6 +733,8 @@ html {
         width: 100%;
     }
     .contacto{
+    overflow-y: hidden;
+
       clear: both;
     }
     .contacto .fila{
