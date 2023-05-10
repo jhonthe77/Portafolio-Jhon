@@ -656,10 +656,10 @@ html {
     .sobremi .fila .col{
         width: fit-content;
     }
-     .skill{
-    height: 135vh;
-
-     }
+    
+    .skills{
+      height: 190vh;
+    }
     .skills .fila{
         display: block;
     }
@@ -670,7 +670,7 @@ html {
         width: 100%;
     }
      .curriculum{
-    height: 135vh;
+    height: 160vh;
 
      }
     .curriculum .fila{
