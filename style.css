@@ -647,13 +647,19 @@ html {
   .nav{
     display: none;
   }
+  .sobremi{
+    height: 135vh;
+  }
     .sobremi .fila{
         display: block;
     }
     .sobremi .fila .col{
         width: fit-content;
     }
+     .skill{
+    height: 135vh;
 
+     }
     .skills .fila{
         display: block;
     }
@@ -663,7 +669,10 @@ html {
     .skills .fila .col .barra-skill{
         width: 100%;
     }
+     .curriculum{
+    height: 135vh;
 
+     }
     .curriculum .fila{
         display: block;
     }
@@ -673,7 +682,10 @@ html {
     .curriculum .fila .derecha{
         margin-left: 20px;
     }
-
+     
+    .portafolio{
+      height: 135vh;
+    }
     .portafolio .galeria{
         display: block;
         width: 100%;
