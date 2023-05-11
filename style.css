@@ -730,7 +730,7 @@ html {
   }
 
   .portafolio {
-    height: 165vh;
+    height: max-content;
     clear: both;
   }
   .portafolio .galeria {
