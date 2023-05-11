@@ -608,7 +608,7 @@ html {
   padding: 20px;
   margin-right: 20px;
 }
-.contacto .contenido-seccion .form input {
+.contacto .contenido-seccion .form form input {
   margin-bottom: 28px;
   width: 90%;
   height: 35px;
@@ -618,7 +618,7 @@ html {
   outline: none;
   border: none;
 }
-.contacto .contenido-seccion .form textarea {
+.contacto .contenido-seccion .form form textarea {
   background-color: #252a2e;
   border: none;
   padding: 10px;
