@@ -656,18 +656,23 @@ html {
   }
   nav.responsive {
     display: block;
+    background-color: #252a2e;
     position: absolute;
     top: 70px;
     right:0px;
-
+    
   }
   nav.responsive ul {
     display: block !important;
+   
   }
   nav.responsive ul li {
     border-bottom: 1px solid #fbfafa;
     padding: 5px;
     left: 0;
+  }
+  nav.responsive ul li a {
+    color: #791ae7;
   }
 
   .inicio .contenido-baner img{
