@@ -610,7 +610,7 @@ html {
 }
 .contacto .contenido-seccion .form form input {
   background-color: #252a2e;
-  
+
   margin-bottom: 28px;
   width: 90%;
   height: 35px;
@@ -729,7 +729,7 @@ html {
     width: 100%;
   }
   .curriculum {
-    height: 160vh;
+    height: max-content;
   }
   .curriculum .fila {
     display: block;
