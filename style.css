@@ -405,7 +405,7 @@ html {
   background-color: #1e2326;
   height: max-content;
   color: #ffffff;
-  padding:0 20px;
+  padding: 0 20px;
 }
 .curriculum .contenido-seccion {
   max-width: 1226px;
@@ -588,29 +588,26 @@ html {
   background-color: #131517;
   background-image: url(image/contact_bg.png);
   color: #ffffff;
-  padding: 25px 20px;
+  padding: 45px ;
 }
 
-.contacto h2 {
+.contacto .contenido-seccion h2 {
   text-align: center;
-  margin: 25px auto;
+ 
 }
 .contacto .contenido-seccion {
   max-width: 1100px;
   margin: auto;
 }
-.contacto .contenido-seccion .form {
+.contacto .contenido-seccion {
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  padding: 20px;
-  margin-right: 20px;
 }
-.contacto .contenido-seccion .form form input {
+.contacto .contenido-seccion form input {
   background-color: #252a2e;
-
   margin-bottom: 28px;
   width: 90%;
   height: 35px;
@@ -618,10 +615,9 @@ html {
   color: #fff;
   outline: none;
   border: none;
-  
 }
 
-.contacto .contenido-seccion .form form textarea {
+.contacto .contenido-seccion form textarea {
   background-color: #252a2e;
   border: none;
   padding: 10px;
@@ -630,15 +626,6 @@ html {
   border: #131517;
   outline: none;
   border: none;
-}
-
-.contacto .contenido-seccion .fila {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.contacto .contenido-seccion .fila .col {
-  width: 50%;
 }
 
 .contacto h2 {
@@ -653,11 +640,11 @@ html {
   body section {
     overflow-x: hidden;
   }
-  
-  nav{
+
+  nav {
     display: none;
   }
-  .nav-responsive{
+  .nav-responsive {
     display: block;
   }
   nav.responsive {
@@ -665,12 +652,10 @@ html {
     background-color: #252a2e;
     position: absolute;
     top: 70px;
-    right:0px;
-    
+    right: 0px;
   }
   nav.responsive ul {
     display: block !important;
-   
   }
   nav.responsive ul li {
     border-bottom: 1px solid #fbfafa;
@@ -681,7 +666,7 @@ html {
     color: #791ae7;
   }
 
-  .inicio .contenido-baner img{
+  .inicio .contenido-baner img {
     width: 80%;
     height: 70%;
   }
@@ -758,15 +743,12 @@ html {
   .contacto {
     clear: both;
   }
-  .contacto .contenido-seccion .fila {
-    display: block;
+  .contacto .contenido-seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-right: 20px;
   }
-  .contacto .contenido-seccion .fila .col {
-    width: 100%;
-    margin-left: 40px;
-  }
-   .contacto .contenido-seccion .fila .col .form form {
-   display: block;
-   margin: 0 auto;
-   }
 }
