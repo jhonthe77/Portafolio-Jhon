@@ -670,6 +670,9 @@ html {
     width: 80%;
     height: 70%;
   }
+  .inicio .contenido-baner{
+        max-width: 315px;
+  }
   .sobremi {
     overflow-x: hidden;
 
