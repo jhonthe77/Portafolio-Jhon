@@ -670,6 +670,7 @@ html {
   }
 
   .sobremi .fila .col{
+   padding: 0 54px;
       overflow-x: hidden;
        display: flex;
        align-items: center;
@@ -678,6 +679,7 @@ html {
         
     }
     .sobremi .fila .col .contenedor-intereses{
+    
         
         display: flex;
         flex-direction: column;
@@ -731,10 +733,10 @@ html {
     .contacto{
       clear: both;
     }
-    .contacto .fila{
+    .contacto .contenido-seccion .fila{
         display: block;
     }
-    .contacto .fila .col{
+    .contacto .contenido-seccion .fila .col{
         width: 100%;
     }
 }
