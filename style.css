@@ -615,6 +615,7 @@ html {
   padding: 10px;
   color: #fff;
   background-color: #252a2e;
+  outline: none;
   border: none;
 }
 .contacto .contenido-seccion .form textarea {
@@ -624,6 +625,8 @@ html {
   color: #fff;
   width: 90%;
   border: #131517;
+  outline: none;
+  border: none;
 }
 
 .contacto .contenido-seccion .fila {
