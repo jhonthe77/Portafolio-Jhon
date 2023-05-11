@@ -734,6 +734,7 @@ html {
     clear: both;
   }
   .portafolio .galeria {
+    height: max-content;
     display: block;
     width: 100%;
   }
