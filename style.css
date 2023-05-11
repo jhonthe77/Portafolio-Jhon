@@ -647,9 +647,29 @@ html {
   body section {
     overflow-x: hidden;
   }
-  .nav {
+  
+  nav{
     display: none;
   }
+  .nav-responsive{
+    display: block;
+  }
+  nav.responsive {
+    display: block;
+    position: absolute;
+    top: 70px;
+    right:0px;
+
+  }
+  nav.responsive ul {
+    display: block !important;
+  }
+  nav.responsive ul li {
+    border-bottom: 1px solid #fbfafa;
+    padding: 5px;
+    left: 0;
+  }
+
   .inicio .contenido-baner img{
     width: 80%;
     height: 70%;
