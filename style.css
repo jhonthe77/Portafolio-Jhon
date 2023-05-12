@@ -739,6 +739,7 @@ html {
     width: 100%;
   }
   .portafolio .galeria .proyecto {
+    padding: 15px;
     max-width: 100%;
   }
   .portafolio .galeria .proyecto img {
