@@ -38,6 +38,7 @@ function efectoHabilidades() {
     for (var i = 0; i < habilidades.length; i++) {
       habilidades[i].classList.add(habilidadesProgreso[i]);
     }
+    
   }
 }
 
