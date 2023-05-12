@@ -739,7 +739,7 @@ html {
     width: 100%;
   }
   .portafolio .galeria .proyecto {
-    
+    margin-bottom: 30px;
     max-width: 100%;
   }
   .portafolio .galeria .proyecto img {
