@@ -45,3 +45,15 @@ function efectoHabilidades() {
 window.onscroll = function () {
   efectoHabilidades();
 };
+
+
+  function descargarCurriculum() {
+    const fileUrl = "assets/JhonKerlymosqueracv.pdf"; // Ruta al archivo PDF
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.target = '_blank';
+    link.download = "JhonKerlymosqueracv.pdf"; // Nombre de archivo para descargar
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
