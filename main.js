@@ -52,7 +52,7 @@ window.onscroll = function () {
     const link = document.createElement('a');
     link.href = fileUrl;
     link.target = '_blank';
-    link.download = "JhonKerlymosqueracv.pdf"; // Nombre de archivo para descargar
+    link.download = "Jhon_Kerly_Mosquera_Cv_Dev.pdf"; // Nombre de archivo para descargar
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
