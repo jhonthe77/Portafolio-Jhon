@@ -1,396 +1,452 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>JHON PORTAFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>JHON PORTAFOLIO</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <div class="contenedor-header">
-    <header>
-      <div class="logo">
-        <a href="#">JHON KERLY</a>
-      </div>
-      <nav id="nav">
-        <ul>
-          <li>
-            <a href="#inicio" onclick="selecionar()">INICIO</a>
-          </li>
-          <li>
-            <a href="#sobremi" onclick="selecionar()">SOBREMI</a>
-          </li>
-          <li>
-            <a href="#skills" onclick="selecionar()">HABILIDADES</a>
-          </li>
-          <li>
-            <a href="#curriculum" onclick="selecionar()">CURRICULUM</a>
-          </li>
-          <li>
-            <a href="#portafolio" onclick="selecionar()">PORTAFOLIO</a>
-          </li>
-          <li>
-            <a href="#contacto" onclick="selecionar()">CONTACTO</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="nav-responsive" onclick="MostrarOcultarMenu()">
-        <i class="fa-sharp fa-solid fa-bars"></i>
-      </div>
-    </header>
-  </div>
-  <!-- seccion de inicio -->
-  <section id="inicio" class="inicio">
-    <div class="contenido-baner">
-      <div class="contenedor-img">
-        <img src="image/jhon.jpg" alt="" />
-      </div>
-      <h1>JHON</h1>
-      <h2>Tecnologo En Análisis y Desarrollo de Software</h2>
-      <div class="redes">
-        <a href="https://github.com/jhonthe77" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.instagram.com/jhonmmosquera/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/jhon-mosquera-b23692126/" target="_blank"><i
-            class="fa-brands fa-linkedin"></i></a>
-      </div>
+  <body>
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">JHON KERLY</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#inicio" onclick="selecionar()">INICIO</a>
+            </li>
+            <li>
+              <a href="#sobremi" onclick="selecionar()">SOBREMI</a>
+            </li>
+            <li>
+              <a href="#skills" onclick="selecionar()">HABILIDADES</a>
+            </li>
+            <li>
+              <a href="#curriculum" onclick="selecionar()">CURRICULUM</a>
+            </li>
+            <li>
+              <a href="#portafolio" onclick="selecionar()">PORTAFOLIO</a>
+            </li>
+            <li>
+              <a href="#contacto" onclick="selecionar()">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="MostrarOcultarMenu()">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+      </header>
     </div>
-  </section>
-  <!-- seccion sobremi -->
-  <section class="sobremi" id="sobremi">
-    <div class="contenido-seccion">
-      <h2>Sobre mi</h2>
-      <p>
-        <span>Hola soy Jhon </span>, Un joven carismático, lleno de metas en
-        las cuales me encuentro trabajando de manera continua porque soy
-        consciente de que el crecimiento diario me ayudará a cada día reducir
-        las brechas para que sean una realidad. Soy un joven apasionado por
-        las TIC. Mi pasión por esta industria es simplemente genuina, es algo
-        que disfruto y que desde muy niño me ha fascinado mucho. Soy un joven
-        que sabe trabajar en equipo y que además lo disfruta un montón. Me
-        gusta incentivar el desarrollo personal de los demás y disfruto mucho
-        el aprender de otras personas y el poder compartir mis conocimientos y
-        así poder generar valor donde estoy. Soy una persona muy sociable que
-        disfruta del trabajo colaborativo. Cuido mi salud y practico deportes
-        para mantenerme en forma. Llevo hábitos saludables como un consumo
-        alto de frutas y comidas saludables. Además, participo en actividades
-        como torneos de fútbol, micro fútbol y atletismo. Soy una persona
-        referente en mi sector en el tema de solución de problemas de TIC
-        relacionados tanto con software como con hardware. Si te ha parecido
-        interesante mi perfil, no dudes en contactarme para que puedas saber
-        más sobre mí y cómo puedo aportar valor a tus necesidades. Muchas
-        gracias por tomarte el tiempo de leerme.
-      </p>
-      <div class="fila">
-        <!-- datos personales -->
-        <div class="col">
-          <h3>Me Interesa</h3>
-          <div class="contenedor-intereses">
-            <div class="interes">
-              <i class="fa-solid fa-code"></i>
-              <span>Desarrollo full stack</span>
-            </div>
-            <div class="interes">
-              <i class="fa-solid fa-language"></i>
-              <span>Aprender inglés</span>
-            </div>
-            <div class="interes">
-              <i class="fa-brands fa-figma"></i>
-              <span>Diseño Web</span>
-            </div>
-          </div>
-          <button onclick="descargarCurriculum()">
-            
-            Descargar cv <i class="fa-solid fa-download"></i>
-            <span class="overlay"></span>
-          </button>
+    <!-- seccion de inicio -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-baner">
+        <div class="contenedor-img">
+          <img src="image/jhon.jpg" alt="" />
+        </div>
+        <h1>JHON</h1>
+        <h2>Tecnologo En Análisis y Desarrollo de Software</h2>
+        <div class="redes">
+          <a href="https://github.com/jhonthe77" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/jhonmmosquera/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/jhon-mosquera-b23692126/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- secion skill -->
-  <section class="skills" id="skills">
-    <div class="contenido-seccion">
-      <h2>Habilidades</h2>
-      <div class="fila">
-        <!-- technical skill -->
-        <div class="col">
-          <h3>Habilidades Tecnicas</h3>
-          <div class="skill">
-            <span>Java </span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-brands fa-java"></i></span>
+    </section>
+    <!-- seccion sobremi -->
+    <section class="sobremi" id="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre mi</h2>
+        <p>
+          <span>Hola soy Jhon </span>, Un joven carismático, lleno de metas en
+          las cuales me encuentro trabajando de manera continua porque soy
+          consciente de que el crecimiento diario me ayudará a cada día reducir
+          las brechas para que sean una realidad. Soy un joven apasionado por
+          las TIC. Mi pasión por esta industria es simplemente genuina, es algo
+          que disfruto y que desde muy niño me ha fascinado mucho. Soy un joven
+          que sabe trabajar en equipo y que además lo disfruta un montón. Me
+          gusta incentivar el desarrollo personal de los demás y disfruto mucho
+          el aprender de otras personas y el poder compartir mis conocimientos y
+          así poder generar valor donde estoy. Soy una persona muy sociable que
+          disfruta del trabajo colaborativo. Cuido mi salud y practico deportes
+          para mantenerme en forma. Llevo hábitos saludables como un consumo
+          alto de frutas y comidas saludables. Además, participo en actividades
+          como torneos de fútbol, micro fútbol y atletismo. Soy una persona
+          referente en mi sector en el tema de solución de problemas de TIC
+          relacionados tanto con software como con hardware. Si te ha parecido
+          interesante mi perfil, no dudes en contactarme para que puedas saber
+          más sobre mí y cómo puedo aportar valor a tus necesidades. Muchas
+          gracias por tomarte el tiempo de leerme.
+        </p>
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Me Interesa</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-code"></i>
+                <span>Desarrollo full stack</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-language"></i>
+                <span>Aprender inglés</span>
+              </div>
+              <div class="interes">
+                <i class="fa-brands fa-figma"></i>
+                <span>Diseño Web</span>
               </div>
             </div>
-          </div>
-          <div class="skill">
-            <span>Python</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-brands fa-python"></i></span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Javascript</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-brands fa-square-js"></i></span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Html & Css</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-brands fa-html5"></i></span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Node Js / Express</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-brands fa-node-js"></i></span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Mysql & Mongodb</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-solid fa-database"></i></span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- profecional skill -->
-        <div class="col">
-          <h3>Habilidades Profecionales</h3>
-          <div class="skill">
-            <span>Comunicación efectiva</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-solid fa-comments"></i></span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Creatividad</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-solid fa-lightbulb"></i></span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Adaptabilidad</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-solid fa-arrows-rotate"></i></span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Gestión del tiempo</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-solid fa-business-time"></i></span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Orientación al cliente</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-solid fa-face-grin-wink"></i></span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Liderazgo</span>
-            <div class="barra-skill">
-              <div class="progreso">
-                <span><i class="fa-solid fa-brain"></i></span>
-              </div>
-            </div>
+            <button onclick="descargarCurriculum()">
+              Descargar cv <i class="fa-solid fa-download"></i>
+              <span class="overlay"></span>
+            </button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- secion de curriculum -->
-  <section class="curriculum" id="curriculum">
-    <div class="contenido-seccion">
-      <h2>Curriculum</h2>
-      <div class="fila">
-        <div class="col izquierda">
-          <h3>Educación</h3>
-          <div class="item izq">
-            <h4>
-              Tecnologo en Analisis y Desarrollo de Sistemas informaticos
-            </h4>
-            <span class="casa">Sena</span>
-            <span class="fecha">14/03/2023</span>
-            <p>
-              Durante mi formación, adquirí habilidades para solucionar
-              problemas de manera efectiva y colaborativa a través del uso de
-              herramientas y metodologías como Scrum. Esto me permitió
-              comprender la importancia de una comunicación clara y efectiva
-              en el trabajo en equipo, así como la importancia de mantener un
-              enfoque iterativo y ágil en el desarrollo de software. Uno de
-              los aspectos más importantes que aprendí fue las diferentes
-              formas de abordar la solución de un problema. Además, aprendí
-              sobre la importancia de la calidad del software, especialmente
-              la escritura de un código limpio, legible, fácil de mantener y
-              escalar. Descubrí la importancia de los patrones de diseño y de
-              arquitectura para escribir un código de calidad. También aprendí
-              cómo implementar el desarrollo y la importancia de tener un
-              entregable de calidad. Otra lección importante que aprendí fue
-              sobre la importancia de un plan de mantenimiento del software.
-              Comprendí que el software no es estático y requiere
-              actualizaciones y mejoras constantes para mantenerse al día y
-              asegurar su funcionamiento óptimo. En resumen, mi proceso de
-              formación me enseñó no solo habilidades técnicas, sino también
-              habilidades blandas y la importancia de la calidad del software
-              y su mantenimiento. Todo esto me ha permitido ser un
-              desarrollador más efectivo y eficiente. Creo que mi experiencia
-              y conocimientos adquiridos serían una valiosa contribución a su
-              empresa.
-            </p>
-            <div class="conectori">
-              <div class="circuloi"></div>
+    </section>
+    <!-- secion skill -->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>Habilidades</h2>
+        <div class="fila">
+          <!-- technical skill -->
+          <div class="col">
+            <h3>Habilidades Tecnicas</h3>
+            <div class="skill">
+              <span>Java </span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-brands fa-java"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Python</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-brands fa-python"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-brands fa-square-js"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Html & Css</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-brands fa-html5"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Node Js / Express</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-brands fa-node-js"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Mysql & Mongodb</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-solid fa-database"></i></span>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="item izq">
-            <h4>Diplomado en programación web</h4>
-            <span class="casa">Universidad de Caldas </span>
-            <span class="fecha">20/12/2022</span>
-            <p>
-              Durante mi proceso de formación, tuve la oportunidad de adquirir
-              un conjunto de habilidades técnicas y blandas que considero
-              esenciales para mi crecimiento profesional. En particular, pude
-              aprender y aplicar el uso de un sistema de control de versiones,
-              lo que me permitió colaborar de manera efectiva en proyectos de
-              equipo y mejorar la gestión de los cambios en el código fuente.
-              Asimismo, tuve la oportunidad de trabajar con editores en línea
-              como Replit, lo que me permitió resolver problemas en tiempo
-              real con mis compañeros de clase. Esta experiencia fue
-              fundamental para fortalecer el trabajo en equipo y la
-              comunicación efectiva y asertiva, habilidades esenciales en
-              cualquier entorno laboral. Además, me desempeñé como monitor
-              voluntario, lo que me permitió compartir mis conocimientos y ser
-              un referente y apoyo para mis compañeros de grupo. Esta
-              experiencia me permitió desarrollar habilidades de liderazgo,
-              organización y comunicación, y contribuyó significativamente a
-              mi formación personal y profesional. Finalmente, en cuanto a
-              formación técnica, trabajamos con diversos lenguajes de
-              programación como Java, Python, JavaScript, y frameworks como
-              Angular, Flask y Express, lo que me permitió adquirir un
-              conjunto diverso de habilidades que considero serán esenciales
-              para mi desempeño en el mercado laboral actual y futuro.
-            </p>
-            <div class="conectori">
-              <div class="circuloi"></div>
+          <!-- profecional skill -->
+          <div class="col">
+            <h3>Habilidades Profecionales</h3>
+            <div class="skill">
+              <span>Comunicación efectiva</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-solid fa-comments"></i></span>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col derecha">
-          <h3>experiencia laboral</h3>
-          <div class="item der">
-            <h4>Analista y Desarrollador de Software</h4>
-            <span class="casa"> STPNEWORKS / EXISTAYA </span>
-            <span class="fecha">26/03/2023</span>
-            <p>En ExistayA
-              Tuve una experiencia de aprendizaje increíble que sentó las bases para mi carrera en el desarrollo.
-              Durante este tiempo, pude aplicar mis conocimientos y expandirlos en diversas áreas. Por ejemplo, tuve la
-              oportunidad de trabajar en la normalización de bases de datos y en la maquetación de interfaces web para
-              todas las cuentas de Active Campaign en la empresa.
-
-              Además, utilicé herramientas como Figma para crear componentes HTML y luego integrarlos en la plataforma
-              LandingUI, añadiendo funcionalidad con JavaScript y estilos con CSS. Fue gratificante ver cómo mis
-              contribuciones mejoraron la experiencia de los usuarios en la plataforma.
-
-              También participé en reuniones sincrónicas con clientes, estableciendo conexiones entre sus plataformas y
-              nuestra empresa. Realicé análisis exhaustivos de los archivos JSON generados por estas conexiones,
-              extrayendo información relevante y valiosa para potenciar los activos de los clientes.
-
-              En resumen, esta experiencia me permitió desarrollar habilidades sólidas en el área del desarrollo web y
-              me brindó la oportunidad de aplicar mi conocimiento en un entorno laboral dinámico. Estoy orgulloso de
-              haber contribuido al éxito de la empresa y de haber dejado mi huella en proyectos significativos.</p>
-            <div class="conectord">
-              <div class="circulod"></div>
+            <div class="skill">
+              <span>Creatividad</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-solid fa-lightbulb"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Adaptabilidad</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-solid fa-arrows-rotate"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Gestión del tiempo</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-solid fa-business-time"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Orientación al cliente</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-solid fa-face-grin-wink"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Liderazgo</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span><i class="fa-solid fa-brain"></i></span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- seccion de portafolio -->
-  <section class="portafolio" id="portafolio">
-    <div class="contenido-seccion">
-      <h2>Portafolio</h2>
-      <div class="galeria">
-        <div class="proyecto">
-          <img src="image/p1.jpg" alt="" />
-          <div class="overlay">
-            <h3>Aplaicacion de escritorio en Java</h3>
-            <p>Tone express</p>
-            <a href="https://github.com/jhonthe77/proyecto-java.git" target="_blank" rel="noopener noreferrer">Ver
-              codigo</a>
+    </section>
+    <!-- secion de curriculum -->
+    <section class="curriculum" id="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>
+                Tecnologo en Analisis y Desarrollo de Sistemas informaticos
+              </h4>
+              <span class="casa">Sena</span>
+              <span class="fecha">14/03/2023</span>
+              <p>
+                Durante mi formación, adquirí habilidades para solucionar
+                problemas de manera efectiva y colaborativa a través del uso de
+                herramientas y metodologías como Scrum. Esto me permitió
+                comprender la importancia de una comunicación clara y efectiva
+                en el trabajo en equipo, así como la importancia de mantener un
+                enfoque iterativo y ágil en el desarrollo de software. Uno de
+                los aspectos más importantes que aprendí fue las diferentes
+                formas de abordar la solución de un problema. Además, aprendí
+                sobre la importancia de la calidad del software, especialmente
+                la escritura de un código limpio, legible, fácil de mantener y
+                escalar. Descubrí la importancia de los patrones de diseño y de
+                arquitectura para escribir un código de calidad. También aprendí
+                cómo implementar el desarrollo y la importancia de tener un
+                entregable de calidad. Otra lección importante que aprendí fue
+                sobre la importancia de un plan de mantenimiento del software.
+                Comprendí que el software no es estático y requiere
+                actualizaciones y mejoras constantes para mantenerse al día y
+                asegurar su funcionamiento óptimo. En resumen, mi proceso de
+                formación me enseñó no solo habilidades técnicas, sino también
+                habilidades blandas y la importancia de la calidad del software
+                y su mantenimiento. Todo esto me ha permitido ser un
+                desarrollador más efectivo y eficiente. Creo que mi experiencia
+                y conocimientos adquiridos serían una valiosa contribución a su
+                empresa.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Diplomado en programación web</h4>
+              <span class="casa">Universidad de Caldas </span>
+              <span class="fecha">20/12/2022</span>
+              <p>
+                Durante mi proceso de formación, tuve la oportunidad de adquirir
+                un conjunto de habilidades técnicas y blandas que considero
+                esenciales para mi crecimiento profesional. En particular, pude
+                aprender y aplicar el uso de un sistema de control de versiones,
+                lo que me permitió colaborar de manera efectiva en proyectos de
+                equipo y mejorar la gestión de los cambios en el código fuente.
+                Asimismo, tuve la oportunidad de trabajar con editores en línea
+                como Replit, lo que me permitió resolver problemas en tiempo
+                real con mis compañeros de clase. Esta experiencia fue
+                fundamental para fortalecer el trabajo en equipo y la
+                comunicación efectiva y asertiva, habilidades esenciales en
+                cualquier entorno laboral. Además, me desempeñé como monitor
+                voluntario, lo que me permitió compartir mis conocimientos y ser
+                un referente y apoyo para mis compañeros de grupo. Esta
+                experiencia me permitió desarrollar habilidades de liderazgo,
+                organización y comunicación, y contribuyó significativamente a
+                mi formación personal y profesional. Finalmente, en cuanto a
+                formación técnica, trabajamos con diversos lenguajes de
+                programación como Java, Python, JavaScript, y frameworks como
+                Angular, Flask y Express, lo que me permitió adquirir un
+                conjunto diverso de habilidades que considero serán esenciales
+                para mi desempeño en el mercado laboral actual y futuro.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <div class="proyecto">
-          <img src="image/p22.jpg" alt="" />
-          <div class="overlay">
-            <h3>Prueva Tecnica para la Compañia SUNTIC</h3>
-            <p>Login Suntic con 2fa</p>
-            <a href="https://github.com/jhonthe77/logui_suntic" target="_blank" rel="noopener noreferrer">Ver codigo</a>
-          </div>
-        </div>
-        <div class="proyecto">
-          <img src="image/java.jpg" alt="" />
-          <div class="overlay">
-            <h3>My ruta de aprendizaje en Java</h3>
-            <p>De Basico a un Nivel Intermedio </p>
-            <a href="https://github.com/jhonthe77/aprendizaje-java/tree/master/src" target="_blank"
-              rel="noopener noreferrer">Ver codigo</a </div>
-          </div>
-        </div>
-        <div class="proyecto">
-          <img src="image/MyApp.jpg" alt="" />
-          <div class="overlay">
-            <h3>Consumo de la Api de Marvel Con Angular</h3>
-            <p>Manejo de Estados y Filtros</p>
-            <a href="https://github.com/jhonthe77/api-marvel" target="_blank"
-              rel="noopener noreferrer">Ver codigo</a </div>
+          <div class="col derecha">
+            <h3>experiencia laboral</h3>
+            <div class="item der">
+              <h4>Analista y Desarrollador de Software</h4>
+              <span class="casa"> STPNEWORKS / EXISTAYA </span>
+              <span class="fecha">26/03/2023</span>
+              <p>
+                En ExistayA Tuve una experiencia de aprendizaje increíble que
+                sentó las bases para mi carrera en el desarrollo. Durante este
+                tiempo, pude aplicar mis conocimientos y expandirlos en diversas
+                áreas. Por ejemplo, tuve la oportunidad de trabajar en la
+                normalización de bases de datos y en la maquetación de
+                interfaces web para todas las cuentas de Active Campaign en la
+                empresa. Además, utilicé herramientas como Figma para crear
+                componentes HTML y luego integrarlos en la plataforma LandingUI,
+                añadiendo funcionalidad con JavaScript y estilos con CSS. Fue
+                gratificante ver cómo mis contribuciones mejoraron la
+                experiencia de los usuarios en la plataforma. También participé
+                en reuniones sincrónicas con clientes, estableciendo conexiones
+                entre sus plataformas y nuestra empresa. Realicé análisis
+                exhaustivos de los archivos JSON generados por estas conexiones,
+                extrayendo información relevante y valiosa para potenciar los
+                activos de los clientes. En resumen, esta experiencia me
+                permitió desarrollar habilidades sólidas en el área del
+                desarrollo web y me brindó la oportunidad de aplicar mi
+                conocimiento en un entorno laboral dinámico. Estoy orgulloso de
+                haber contribuido al éxito de la empresa y de haber dejado mi
+                huella en proyectos significativos.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-  </section>
-  <!-- seccion contacto -->
-  <section class="contacto" id="contacto">
-    <h2>Contacto</h2>
-    <div class="contenido-seccion">
-      <form action="https://formsubmit.co/jhonthe8@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Ingrese su Nombre" required />
-        <input type="text" name="telefono" placeholder="Ingrese su Telefono" />
-        <input type="email" name="email" id="" placeholder="Ingrese su Email" />
-        <textarea name="mensaje" id="" cols="30" rows="15" placeholder="Ingrese su Mensaje"></textarea>
-        <input type="submit" value="Enviar" />
-        <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="https://jhonthe77.github.io/Portafolio-jhon/" />
-      </form>
-    </div>
-  </section>
-  <script src="main.js"></script>
-</body>
+    </section>
+    <!-- seccion de portafolio -->
+    <section class="portafolio" id="portafolio">
+      <div class="contenido-seccion">
+        <h2>Portafolio</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="image/p1.jpg" alt="" />
+            <div class="overlay">
+              <h3>Aplaicacion de escritorio en Java</h3>
+              <p>Tone express</p>
+              <a
+                href="https://github.com/jhonthe77/proyecto-java.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ver codigo</a
+              >
+            </div>
+          </div>
 
+          <div class="proyecto">
+            <img src="image/p22.jpg" alt="" />
+            <div class="overlay">
+              <h3>Prueva Tecnica para la Compañia SUNTIC</h3>
+              <p>Login Suntic con 2fa</p>
+              <a
+                href="https://github.com/jhonthe77/logui_suntic"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ver codigo</a
+              >
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="image/java.jpg" alt="" />
+            <div class="overlay">
+              <h3>My ruta de aprendizaje en Java</h3>
+              <p>De Basico a un Nivel Intermedio</p>
+              <a
+                href="https://github.com/jhonthe77/aprendizaje-java/tree/master/src"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ver codigo</a
+              >
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="image/MyApp.jpg" alt="" />
+            <div class="overlay">
+              <h3>Consumo de la Api de Marvel Con Angular</h3>
+              <p>Manejo de Estados y Filtros</p>
+              <a
+                href="https://github.com/jhonthe77/api-marvel"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ver codigo</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- seccion contacto -->
+    <section class="contacto" id="contacto">
+      <h2>Contacto</h2>
+      <div class="contenido-seccion">
+        <form action="https://formsubmit.co/jhonthe8@gmail.com" method="POST">
+          <input
+            type="text"
+            name="name"
+            placeholder="Ingrese su Nombre"
+            required
+          />
+          <input
+            type="text"
+            name="telefono"
+            placeholder="Ingrese su Telefono"
+          />
+          <input
+            type="email"
+            name="email"
+            id=""
+            placeholder="Ingrese su Email"
+          />
+          <textarea
+            name="mensaje"
+            id=""
+            cols="30"
+            rows="15"
+            placeholder="Ingrese su Mensaje"
+          ></textarea>
+          <input type="submit" value="Enviar" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://jhonthe77.github.io/Portafolio-jhon/"
+          />
+        </form>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
 </html>
