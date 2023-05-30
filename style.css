@@ -628,6 +628,11 @@ html {
   border: none;
 }
 
+.contacto .contenido-seccion form input[type="submit"] {
+  cursor: pointer;
+}
+
+
 .contacto h2 {
   font-size: 48px;
   font-family: "Righteous";
